@@ -12,7 +12,8 @@ if (text1 === "pop") {
   arr.shift();
   console.log(arr);
 } else if (text1 === "unshift") {
-  arr.unshift();
+  var arg1 = prompt("Enter value");
+  arr.unshift(arg1);
   console.log(arr);
 } else if (text1 === "splice") {
   var num1 = prompt("enter start delete ");
